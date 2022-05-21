@@ -1,0 +1,113 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: inherit;
+        text-decoration: none;
+        outline: none;
+        list-style: none;
+    }
+    
+    body {
+        font-family: sans-serif;
+    }
+    
+    .text_img {
+        background: url('../images/photographer.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+        width: 100%;
+        height: 83vh;
+    }
+    
+    .text_text {
+        border: 1px solid #fff;
+        padding: 20px;
+        letter-spacing: 7px;
+    }
+    
+    .text_text h1 {
+        font-size: 3em;
+        font-weight: 300;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .text_text span {
+        padding-left: 40px;
+    }
+    
+    header nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header nav ul .nav_link {
+        transform: translateY(-50%);
+        background: #f4f4f4;
+    }
+    
+    .nav_link a {
+        color: #333;
+        font-size: 1.1em;
+        padding-inline: 20px;
+    }
+    
+    .cord {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-block: 10px;
+    }
+    
+    .cord img {
+        margin-bottom: 10px;
+    }
+    
+    .contact {
+        background: #f4f4f4;
+        max-width: 1000px;
+        margin: 1em auto;
+        padding: 20px;
+    }
+    
+    .contact_contact {}
+    
+    .contact_contact h4 {
+        padding-block: 50px;
+        color: #333;
+        font-size: 1.5em;
+        text-align: center;
+        font-weight: 100;
+    }
+    
+    .contact_contact p {}
+    
+    .contact form {
+        margin-block: 20px;
+    }
+    
+    form label {
+        font-size: 1em;
+        color: #333;
+    }
+    
+    form input {
+        margin-block: 10px;
+        width: 100%;
+        border: none;
+        padding: 10px;
+    }
+    
+    form input:last-child {
+        background: gray;
+        color: #fff;
+        cursor: pointer;
+    }
